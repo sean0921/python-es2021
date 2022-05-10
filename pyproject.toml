@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "python-es2021"
+version = "20200510.0"
+description = "Answers of Python Homework in EarthScience Programming 2021"
+authors = ["Sean Ho <sean.li.shin.ho@gmail.com>"]
+license = "Unlicense"
+readme = "README.md"
+packages = [{include = "python_es2021"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.22.3"
+matplotlib = "^3.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
